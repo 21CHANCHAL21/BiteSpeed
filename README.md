@@ -27,6 +27,8 @@ This endpoint allows the creation of a new contact or the identification of an e
 - **phoneNumber**: (Optional) The customer's phone number.
 
 **Note**: At least one of email or phoneNumber must be provided.
+
+**Response**
 ```json
 {
   "contact": {
@@ -126,7 +128,7 @@ A successful response will return the primary contact details along with any lin
     "phoneNumbers": [
       "1234567890"
     ],
-    "secondaryContactIds": [2, 3]
+    "secondaryContactIds": []
   }
 }
 
