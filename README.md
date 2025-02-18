@@ -21,3 +21,40 @@ This endpoint allows the creation of a new contact or the identification of an e
   "email": "user@example.com",
   "phoneNumber": "1234567890"
 }
+
+- **email**: (Optional) The customer's email address.
+- **phoneNumber**: (Optional) The customer's phone number.
+
+**Note**: At least one of email or phoneNumber must be provided.
+```json
+{
+  "contact": {
+    "primaryContactId": 1,
+    "emails": [
+      "user@example.com"
+    ],
+    "phoneNumbers": [
+      "1234567890"
+    ],
+    "secondaryContactIds": []
+  }
+}
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- **Node.js** (v14 or higher)
+- **PostgreSQL** (v12 or higher)
+- **npm** (Node Package Manager)
+
+## PostgreSQL Setup
+
+Ensure PostgreSQL is installed and running on your machine. 
+
+Create a new database for the project:
+
+```bash
+createdb bitespeed_identity
+
+
