@@ -21,6 +21,7 @@ This endpoint allows the creation of a new contact or the identification of an e
   "email": "user@example.com",
   "phoneNumber": "1234567890"
 }
+```
 
 - **email**: (Optional) The customer's email address.
 - **phoneNumber**: (Optional) The customer's phone number.
@@ -39,6 +40,7 @@ This endpoint allows the creation of a new contact or the identification of an e
     "secondaryContactIds": []
   }
 }
+```
 
 ## Prerequisites
 
